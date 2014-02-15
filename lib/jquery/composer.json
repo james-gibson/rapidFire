@@ -23,7 +23,7 @@
     "extra": {
         "component": {
             "scripts": [
-                "jquery.js"
+                "jquery.lib"
             ]
         }
     }

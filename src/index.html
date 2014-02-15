@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapid Fire HTTP testing tool</title>
+    <script src="js/angular/angular.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h3>Rapid Fire: HTTP testing tool</h3>
+    </div>
+    <div id="sidebar" ng-controller="MenuListCtrl">
+        <ul>
+            <li ng-repeat="action in actions">
+                {{action.name}}
+                <p>{{action.snippet}}</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="content"></div>
+
+</body>
+</html>

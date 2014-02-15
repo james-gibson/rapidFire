@@ -7,7 +7,7 @@
     "component"
   ],
   "scripts": [
-    "jquery.js"
+    "jquery.lib"
   ],
   "license": "MIT",
   "gitHead": "46f8412bd1bb9b1b30b5b0eb88560e2d4196509c",
